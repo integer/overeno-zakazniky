@@ -60,7 +60,7 @@ class ShopCertification
      * @param array           $options
      * @param IRequester|null $requester
      */
-    public function __construct($apiKey, array $options = [], IRequester $requester = null)
+    public function __construct($apiKey, array $options = [], ?IRequester $requester = null)
     {
         $this->apiKey = $apiKey;
 
